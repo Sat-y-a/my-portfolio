@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Satya's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Hi, It's Satya</h1>
+    <h2>I'm a Software Engineer</h2>
+
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="button-group">
+      <a href="#" class="btn">Hire</a>
+      <a href="resume.pdf" class="btn">Resume</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a self-driven and result-oriented software engineering professional with a strong foundation in Python and MySQL.
+      Holding both Bachelor’s and Master’s degrees in Computer Science and Engineering, I bring over two years of hands-on experience
+      in software development, with a focus on real-world applications and research.
+    </p>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>High School</strong> - 80.66% [2017] - Raipur, Jajpur, Odisha</li>
+      <li><strong>Higher Secondary</strong> - 63% [2017–2019] - Tangi, Cuttack, Odisha</li>
+      <li><strong>Graduation (BTech)</strong> - 8.4 CGPA [2019–2023] - Gandhi Institute for Technological Advancement (GITA), Bhubaneswar (BPUT University)</li>
+      <li><strong>Post Graduation (MTech)</strong> - 8.6 CGPA [2023–2025] - Odisha University of Technology and Research, Bhubaneswar (OUTR University)</li>
+    </ul>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      
+      <!-- Technical Skills -->
+      <div class="skills-box">
+        <h3>Technical Skills</h3>
+        <div class="skill">
+          <span>Python</span>
+          <div class="progress-bar"><div class="fill" style="width: 85%;"></div></div>
+        </div>
+        <div class="skill">
+          <span>MySQL</span>
+          <div class="progress-bar"><div class="fill" style="width: 90%;"></div></div>
+        </div>
+        <div class="skill">
+          <span>Java</span>
+          <div class="progress-bar"><div class="fill" style="width: 75%;"></div></div>
+        </div>
+        <div class="skill">
+          <span>Machine Learning</span>
+          <div class="progress-bar"><div class="fill" style="width: 60%;"></div></div>
+        </div>
+      </div>
+
+      <!-- Soft Skills -->
+      <div class="skills-box">
+        <h3>Soft Skills</h3>
+        <ul class="soft-list">
+          <li>Time Management</li>
+          <li>Team Work</li>
+          <li>Efficient Working</li>
+          <li>Adaptability</li>
+        </ul>
+      </div>
+
+      <!-- Language Skills -->
+      <div class="skills-box">
+        <h3>Languages</h3>
+        <div class="skill">
+          <span>English</span>
+          <div class="progress-bar"><div class="fill" style="width: 75%;"></div></div>
+        </div>
+        <div class="skill">
+          <span>Hindi</span>
+          <div class="progress-bar"><div class="fill" style="width: 80%;"></div></div>
+        </div>
+        <div class="skill">
+          <span>Odia</span>
+          <div class="progress-bar"><div class="fill" style="width: 99%;"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>Voice AI Assistant [<a href="#">GitHub</a>]</li>
+      <li>Web Browser [<a href="#">GitHub</a>]</li>
+      <li>Student DBMS [<a href="#">GitHub</a>]</li>
+      <li>Automatic Car [<a href="#">GitHub</a>]</li>
+      <li>Snake Game [<a href="#">GitHub</a>]</li>
+      <li>Music Player [<a href="#">GitHub</a>]</li>
+    </ul>
+  </section>
+
+  <!-- Publications Section -->
+  <section id="publications">
+    <h2>Publications</h2>
+    <p><strong>Topic:</strong> Face Mask Detection System for Safety Assurance in Nuclear Power Plant</p>
+    <p><strong>Source Dataset:</strong> Kaggle</p>
+    <ul>
+      <li>Thesis [<a href="#">Link</a>]</li>
+      <li>Paper-1 [<a href="#">Link</a>]</li>
+      <li>Paper-2 [<a href="#">Link</a>]</li>
+      <li>Paper-3 [<a href="#">Link</a>]</li>
+    </ul>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" required />
+
+      <label for="mobile">Contact Number</label>
+      <input type="tel" id="mobile" pattern="[0-9]{10}" required />
+
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" required />
+
+      <label for="message">Your Message</label>
+      <input type="text" id="massage" required />
+      
+
+      <button type="submit">Send Message</button>
+      <p id="confirmation" style="display:none; color: green; margin-top: 10px;">Message sent successfully!</p>
+    </form>
+  </section>
+
+  <!-- Social Media Links Section -->
+  <section id="social">
+    <h2>Connect With Me</h2>
+    <div class="social-icons">
+      <a href="mailto:YOUR_EMAIL@gmail.com" target="_blank" title="Email">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" />
+      </a>
+      <a href="https://wa.me/91YOURPHONENUMBER" target="_blank" title="WhatsApp">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" />
+      </a>
+      <a href="https://www.linkedin.com/in/YOUR_USERNAME" target="_blank" title="LinkedIn">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" />
+      </a>
+      <a href="https://github.com/YOUR_USERNAME" target="_blank" title="GitHub">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
+      </a>
+      <a href="https://www.instagram.com/YOUR_USERNAME" target="_blank" title="Instagram">
+        <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram" />
+      </a>
+      <a href="https://www.facebook.com/YOUR_USERNAME" target="_blank" title="Facebook">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" />
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Satya Ranjan Panda. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
